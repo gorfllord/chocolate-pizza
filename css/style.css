@@ -1,7 +1,21 @@
-/* header {
-  border-image: url("assets/hr-img.png") ;
-  border-image-repeat: repeat;
-} */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: auto;
+  padding: 0 10%;
+}
+header {
+  display: flex;
+}
+h2 {
+  font-family: "yellowtail", cursive;
+  font-size: 3rem;
+  font-weight: bold;
+}
+figcaption {
+  font-family: monospace;
+}
 .borderLine {
   height: 16px;
   width: 100%;
@@ -22,7 +36,14 @@ h1 {
   font-weight: bold;
   font-size: 3rem;
 }
-body {
-  margin: auto;
-  padding: 0 10%;
+#mainImage {
+  width: 100%;
+}
+#paperList {
+  background-image: url("../assets/list-bg.png");
+display: flex;
+padding: 7%;
+font-family: "comic sans ms", "comic sans", cursive;
+justify-content: space-between;
+
 }
