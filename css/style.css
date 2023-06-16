@@ -3,18 +3,42 @@
 }
 body {
   margin: auto;
-  padding: 0 10%;
+  padding: 0 15%;
 }
 header {
   display: flex;
+  flex-direction: column;
+}
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  padding: 15px 0px;
+}
+#logo {
+  padding: 5px;
+  width: 42px;
+  height: 45px;
+}
+#logoBrand {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+figure {
+  width: 15rem;
 }
 h2 {
   font-family: "yellowtail", cursive;
-  font-size: 3rem;
+  font-size: 1.9rem;
   font-weight: bold;
+  font-stretch: expanded;
 }
 figcaption {
-  font-family: monospace;
+  font-size: xx-small;
+  font-family: arial, helvetica, sans-serif;
+  font-stretch: condensed;
 }
 .borderLine {
   height: 16px;
@@ -31,6 +55,24 @@ figcaption {
   flex-direction: row;
   justify-content: space-between;
 }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+  padding-left: 5px;
+}
+nav ul img {
+  padding-top: 10px;
+  padding-right: 2px;
+}
+main {
+  padding-top: 30px;
+}
 h1 {
   font-family: arial, helvetica, sans-serif;
   font-weight: bold;
@@ -39,11 +81,21 @@ h1 {
 #mainImage {
   width: 100%;
 }
+.para {
+  text-indent: 3%;
+  padding: 10px 0;
+  color: rgb(139, 132, 91);
+}
+.para:last-child {
+  padding-bottom: 25px;
+}
 #paperList {
   background-image: url("../assets/list-bg.png");
-display: flex;
-padding: 7%;
-font-family: "comic sans ms", "comic sans", cursive;
-justify-content: space-between;
-
+  background-size: contain;
+  display: flex;
+  padding: 6.3%;
+  font-family: "comic sans ms", "comic sans", cursive;
+  justify-content: space-between;
+  color: rgb(139, 132, 91);
+  margin-bottom: 30px;
 }
