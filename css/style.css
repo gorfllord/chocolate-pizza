@@ -1,0 +1,28 @@
+/* header {
+  border-image: url("assets/hr-img.png") ;
+  border-image-repeat: repeat;
+} */
+.borderLine {
+  height: 16px;
+  width: 100%;
+  background-image: url("../assets/hr-img.png");
+  background-repeat: repeat;
+}
+#title {
+  display: flex;
+  flex-direction: column;
+}
+#title article {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+h1 {
+  font-family: arial, helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+body {
+  margin: auto;
+  padding: 0 10%;
+}
