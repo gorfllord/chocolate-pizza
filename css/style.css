@@ -84,7 +84,7 @@ h1 {
 .para {
   text-indent: 3%;
   padding: 10px 0;
-  color: rgb(139, 132, 91);
+  color: rgb(56, 53, 36);
 }
 .para:last-child {
   padding-bottom: 25px;
@@ -96,6 +96,47 @@ h1 {
   padding: 6.3%;
   font-family: "comic sans ms", "comic sans", cursive;
   justify-content: space-between;
-  color: rgb(139, 132, 91);
+  color: rgb(56, 53, 36);
   margin-bottom: 30px;
+}
+#bio {
+  display: flex;
+  padding-top: 20px;
+}
+#bio article {
+  padding: 0 15px ;
+}
+h3 {
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+#shareRecipe {
+  background-color: rgb(188,112,88);
+  color: white;
+  width: 240px;
+  height: 50px;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px ;
+  margin-left: 15px;
+}
+div {
+  border: 1px solid gray;
+  height: 1px;
+  width: 30%;
+  display: flex;
+}
+#footerlogo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+footer section {
+text-align: center;
 }
