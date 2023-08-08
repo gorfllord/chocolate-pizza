@@ -74,34 +74,57 @@ main {
   padding-top: 30px;
 }
 h1 {
-  font-family: arial, helvetica, sans-serif;
+  font-family: helvetica, arial, sans-serif;
   font-weight: bold;
   font-size: 3rem;
 }
+#subtitle {
+  color:#aaa;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: 100;
+}
 #mainImage {
   width: 100%;
+  margin-top: 1.3rem;
 }
 .para {
   text-indent: 3%;
   padding: 10px 0;
-  color: rgb(56, 53, 36);
+  color: rgb(82, 76, 48)
 }
 .para:last-child {
   padding-bottom: 25px;
 }
 #paperList {
   background-image: url("../assets/list-bg.png");
-  background-size: contain;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
   display: flex;
-  padding: 6.3%;
+  padding-left: 5%;
+  padding-top: 3%;
+  padding-bottom: 7%;
+  padding-right: 20%;
   font-family: "comic sans ms", "comic sans", cursive;
   justify-content: space-between;
-  color: rgb(56, 53, 36);
+  color: rgb(82, 76, 48);
   margin-bottom: 30px;
+  font-size: large;
+}
+#paperList li{
+  padding-bottom: 0.5rem;
+}
+.checkbox {
+  color: #444;
+  background-color: #e4cc4400;
+}
+label input:checked {
+  text-decoration: line-through;
 }
 #bio {
   display: flex;
   padding-top: 20px;
+  justify-content: center;
+  color:#444;
 }
 #bio article {
   padding: 0 15px ;
@@ -116,27 +139,40 @@ h3 {
   width: 240px;
   height: 50px;
   font-family: "Oswald", sans-serif;
+  font-stretch: extra-expanded;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px ;
   margin-left: 15px;
 }
-div {
-  border: 1px solid gray;
-  height: 1px;
-  width: 30%;
-  display: flex;
-}
 #footerlogo {
   display: flex;
-  align-content: center;
+  align-items: center;
   justify-content: center;
+}
+div {
+  border: 0.5px solid #eee;
+  height: 0.5px;
+  width: 49%;
+  display: flex;
+  align-content: center;
+}
+#small-logo {
+  padding-left: 1%;
+  padding-right: 1%;
 }
 footer {
   display: flex;
   flex-direction: column;
 }
 footer section {
-text-align: center;
+  text-align: center;
+}
+#footertext {
+  padding: 2rem;
+  color: #aaa;
+}
+#footertext p {
+  padding: 0.2rem;
 }
